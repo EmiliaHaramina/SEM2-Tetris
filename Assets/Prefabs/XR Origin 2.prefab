@@ -1,0 +1,711 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3087236898395498279
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4702550430524140665, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140665, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140665, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineLength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550430524140667, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key2.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445021, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_MaxRaycastDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445021, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445021, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineLength
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.atime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445023, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key2.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595024714075, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Name
+      value: Left Hand Base Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595024714075, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595024714079, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+    - target: {fileID: 8272058595504974780, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205728, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Velocity
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205728, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205728, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineWidth
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineLength
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205730, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205735, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+    - target: {fileID: 8272058595637205741, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Name
+      value: Left Hand Teleport Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595637205741, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058595797690784, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineWidth
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LineLength
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.b
+      value: 0.06007475
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.g
+      value: 0.8490566
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key0.r
+      value: 0.3274554
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.b
+      value: 0.05882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.g
+      value: 0.8509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ValidColorGradient.key1.r
+      value: 0.32941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216449, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InvalidColorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216454, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+    - target: {fileID: 8272058596068216455, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Velocity
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216455, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_RaycastMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216455, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216460, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Name
+      value: Right Hand Teleport Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596068216460, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596429258435, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.653
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367051, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367158, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Name
+      value: XR Origin
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596548367158, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596786027395, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 5686134208185136530, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+    - target: {fileID: 8272058596786027407, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Name
+      value: Right Hand Base Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058596786027407, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272058597004348778, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8272058595504974770, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+    - {fileID: 8272058595797690790, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+--- !u!1 &6346786754953802769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058596548367158, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6346786753845513371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058595504974780, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6346786754866060456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058596786027407, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6346786754866060452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058596786027395, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754866060456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caff514de9b15ad48ab85dcff5508221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7753722093121293150 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4702550430524140665, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754866060456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6346786755480086955 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058596068216460, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6346786755480086945 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058596068216454, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786755480086955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caff514de9b15ad48ab85dcff5508221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6346786755480086944 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058596068216455, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786755480086955}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6346786754144194183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058595797690784, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6346786754514493052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058595024714075, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6346786754514493048 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058595024714079, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754514493052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caff514de9b15ad48ab85dcff5508221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7753722093628480634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4702550432164445021, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754514493052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6346786753717452234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8272058595637205741, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6346786753717452224 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058595637205735, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786753717452234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caff514de9b15ad48ab85dcff5508221, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6346786753717452231 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8272058595637205728, guid: e9f304555eac0b141bdd13231a49d5b8, type: 3}
+  m_PrefabInstance: {fileID: 3087236898395498279}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786753717452234}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!143 &4723375170049704040
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754953802769}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.85
+  m_Radius: 0.25
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &4723375170049704038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754953802769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af6bf904e410ee8479f9093d8830d1f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LocomotionProvider: {fileID: 0}
+  m_MinHeight: 1
+  m_MaxHeight: 2
+--- !u!114 &4723375170747016350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786753845513371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c9a422d5333674497ed3fbc21e9f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseController: {fileID: 6346786754866060456}
+  teleportationController: {fileID: 6346786755480086955}
+  teleportActivationReference: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  onTeleportActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6346786754866060452}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7753722093121293150}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6346786755480086945}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6346786755480086944}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onTeleportCancel:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6346786754866060452}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7753722093121293150}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6346786755480086945}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6346786755480086944}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4723375170747016351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6346786754144194183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8c9a422d5333674497ed3fbc21e9f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseController: {fileID: 6346786754514493052}
+  teleportationController: {fileID: 6346786753717452234}
+  teleportActivationReference: {fileID: 1263111715868034790, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  onTeleportActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6346786754514493048}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 7753722093628480634}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6346786753717452224}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6346786753717452231}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onTeleportCancel:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6346786754514493048}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 7753722093628480634}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6346786753717452224}
+        m_TargetAssemblyTypeName: UnityEngine.XR.Interaction.Toolkit.XRBaseController,
+          Unity.XR.Interaction.Toolkit
+        m_MethodName: set_enableInputActions
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6346786753717452231}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
