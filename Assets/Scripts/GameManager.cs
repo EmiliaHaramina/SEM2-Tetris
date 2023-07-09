@@ -5,6 +5,7 @@ using UnityEngine.PlayerLoop;
 using System.Collections.Generic;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameManager : MonoBehaviour
 {
@@ -64,6 +65,14 @@ public class GameManager : MonoBehaviour
 
     public ButtonVR stopButton;
 
+    [SerializeField] private List<GameObject> _teleportationControllers;
+    
+    [Header("Providers")]
+    [SerializeField] private ActionBasedContinuousMoveProvider _continuousMovementController;
+    [SerializeField] private TeleportationProvider _teleportationProvider;
+    [SerializeField] private ActionBasedSnapTurnProvider _snapTurnProvider;
+    [SerializeField] private ActionBasedContinuousTurnProvider _continuousTurnProvider;
+
     public void AddWornItem()
     {
         wornItems++;
@@ -110,6 +119,19 @@ public class GameManager : MonoBehaviour
         //StartGame();
 
         StartInitialSymptoms();
+
+        if (StateManager.movement.Equals("continuous"))
+        {
+            foreach (var controller in _teleportationControllers)
+            {
+                controller.SetActive(false);
+            }
+            _teleportationProvider.enabled = false;
+            _continuousMovementController.enabled = true;
+            _snapTurnProvider.enabled = false;
+            _continuousTurnProvider.enabled = true;
+        }
+
     }
 
     // Update is called once per frame

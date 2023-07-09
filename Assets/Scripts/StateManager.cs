@@ -8,4 +8,5 @@ public class StateManager : MonoBehaviour
     public static bool rulesRead = false;
     public static bool lectionRead = false;
     public static bool gameOver = false;
+    public static string movement = "teleportation";
 }

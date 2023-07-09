@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.UI;
 
 public class MovementManager : MonoBehaviour
 {
@@ -12,7 +13,17 @@ public class MovementManager : MonoBehaviour
     [SerializeField] private ActionBasedSnapTurnProvider _snapTurnProvider;
     [SerializeField] private ActionBasedContinuousTurnProvider _continuousTurnProvider;
     
+    [SerializeField] private Toggle toggleButton;
+    
     private bool _isTeleportationEnabled = true;
+
+    void Start()
+    {
+        if (StateManager.movement.Equals("continuous"))
+        {
+            toggleButton.isOn = false;
+        }
+    }
 
     public void CheckMovementSystem()
     {
@@ -23,6 +34,8 @@ public class MovementManager : MonoBehaviour
             EnableTeleportation(false);
             EnableSnapTurn(false);
             _isTeleportationEnabled = false;
+
+            StateManager.movement = "continuous";
         }
         else
         {
@@ -31,6 +44,8 @@ public class MovementManager : MonoBehaviour
             EnableTeleportation(true);
             EnableSnapTurn(true);
             _isTeleportationEnabled = true;
+
+            StateManager.movement = "teleportation";
         }
     }
 

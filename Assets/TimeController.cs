@@ -13,6 +13,8 @@ public class TimeController : MonoBehaviour
     private float _currentTime;
     private bool _isReady = false;
 
+    [SerializeField] private AnswerController answerController;
+
     private void OnEnable()
     {
         QuizController.OnStartTimer += SetTimer;

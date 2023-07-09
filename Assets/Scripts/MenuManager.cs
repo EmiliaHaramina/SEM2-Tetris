@@ -36,7 +36,7 @@ public class MenuManager : MonoBehaviour
         if (StateManager.lectionRead && StateManager.rulesRead)
         {
             loadingScreen.SetActive(true);
-            SceneManager.LoadScene("Soba");
+            SceneManager.LoadScene("Cetris");
         }
         else
         {

@@ -94,7 +94,7 @@ public class TetrisPieceScript : MonoBehaviour
         rd.material = childCube.GetComponent<Renderer>().material;
 
         //ako tetris dio padne na komadice
-        miniCube.layer = 3;
+        miniCube.layer = 14;
 
         miniCube.transform.localScale = this.transform.localScale / cubesPerAxis;
 

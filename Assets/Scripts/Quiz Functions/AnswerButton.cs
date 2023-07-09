@@ -25,6 +25,7 @@ public class AnswerButton : MonoBehaviour
         AnswerController.OnAnswerValidation += ValidateAnswer;
         QuizController.OnResetAnswerButtons += ResetButton;
         TimeController.OnDisableButtons += ToggleButtonInteractability;
+        TimeController.OnTimerEnded += PaintButtonBackground;
     }
 
     private void OnDisable()
@@ -33,6 +34,7 @@ public class AnswerButton : MonoBehaviour
         AnswerController.OnAnswerValidation -= ValidateAnswer;
         QuizController.OnResetAnswerButtons -= ResetButton;
         TimeController.OnDisableButtons -= ToggleButtonInteractability;
+        TimeController.OnTimerEnded -= PaintButtonBackground;
     }
 
     private void ToggleButtonInteractability(bool toggleValue)
