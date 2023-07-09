@@ -5,16 +5,10 @@ using UnityEngine.UI;
 
 public class EnableTimer : MonoBehaviour
 {
-    private void OnEnable()
+    private void Start()
     {
         QuizController.OnQuizStarted += ChangeToggleInteractability;
         QuizController.OnQuizEnded += ChangeToggleInteractability;
-    }
-
-    private void OnDisable()
-    {
-        QuizController.OnQuizStarted -= ChangeToggleInteractability;
-        QuizController.OnQuizEnded -= ChangeToggleInteractability;
     }
 
     private void ChangeToggleInteractability()
