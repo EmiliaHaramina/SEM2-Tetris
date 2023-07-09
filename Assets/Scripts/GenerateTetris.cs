@@ -13,6 +13,8 @@ public class GenerateTetris : MonoBehaviour
     //svaki se moze pojaviti max 2 puta za redom
     (int index, int reps) lastSpawned;
 
+    [SerializeField] float secondsUntilExplosion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +77,9 @@ public class GenerateTetris : MonoBehaviour
 
     IEnumerator despawnPiece(GameObject tetrisPiece)
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(secondsUntilExplosion);
+
+        tetrisPiece.GetComponent<TetrisPieceScript>().SetExploded(true);
 
         if (tetrisPiece != null)
         {

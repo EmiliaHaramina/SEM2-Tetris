@@ -37,4 +37,16 @@ public class Wearable : MonoBehaviour
         if (collision.gameObject == snapZone)
             inSnapZone = false;
     }
+
+    // void OnTriggerEnter(Collider collider)
+    // {
+    //     if (collider.gameObject == snapZone)
+    //         inSnapZone = true;
+    // }
+
+    // void OnTriggerExit(Collider collider)
+    // {
+    //     if (collider.gameObject == snapZone)
+    //         inSnapZone = false;
+    // }
 }

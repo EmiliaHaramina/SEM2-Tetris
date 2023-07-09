@@ -20,9 +20,11 @@ public class GameManager : MonoBehaviour
     [Header("Spawner settings")]
     [Tooltip("Spawn tetris piece every x seconds")]
     [SerializeField] float seconds;
+    private float setSeconds;
 
     [Tooltip("Start spawning pieces after startOffset seconds")]
     [SerializeField] float startOffset;
+    private float setStartOffset;
 
     [Tooltip("Reduce time using this variable")]
     [SerializeField] float reduceTime;
@@ -59,6 +61,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] objectsToHide;
     public GameObject[] objectsToShow;
+
+    public ButtonVR stopButton;
 
     public void AddWornItem()
     {
@@ -99,6 +103,9 @@ public class GameManager : MonoBehaviour
         levelTresholds[2] = lvl_4;
         levelTresholds[3] = lvl_5;
 
+        setSeconds = seconds;
+        setStartOffset = startOffset;
+
         //called by button, uncomment for testing
         //StartGame();
 
@@ -132,6 +139,9 @@ public class GameManager : MonoBehaviour
 
         level = 1;
         nextLvl = levelTresholds[level - 1];
+
+        seconds = setSeconds;
+        startOffset = setStartOffset;
 
         //pokreni spawnere
         spawners[0].GetComponent<GenerateTetris>().startSpawning(0, seconds);
@@ -194,11 +204,22 @@ public class GameManager : MonoBehaviour
         {
             if (tetris != null)
             {
-                tetris.GetComponent<TetrisPieceScript>().Explode();
+                TetrisPieceScript tetrisPiece = tetris.GetComponent<TetrisPieceScript>();
+                tetrisPiece.SetExploded(true);
+                tetrisPiece.Explode();
             }
         }
         livesText.enabled = false;
         lives = LIVES;
+
+        timeText.text = "<b>IGRA JE GOTOVA<b>";
+        timeText.alignment = TextAlignmentOptions.Center;
+        scoreText.text = "Konačni bodovi: " + score;
+
+        float min = Mathf.FloorToInt(currentTime / 60);
+        float sec = Mathf.FloorToInt(currentTime % 60);
+
+        lvlText.text = "Vrijeme: " + string.Format("{0:00}:{1:00}", min, sec);
     }
 
     public void DroppedOrDespawned()
@@ -207,15 +228,8 @@ public class GameManager : MonoBehaviour
 
         if (lives <= 0)
         {
-            StopGame();
-            timeText.text = "<b>IGRA JE GOTOVA<b>";
-            timeText.alignment = TextAlignmentOptions.Center;
-            scoreText.text = "Konačni bodovi: " + score;
-
-            float min = Mathf.FloorToInt(currentTime / 60);
-            float sec = Mathf.FloorToInt(currentTime % 60);
-
-            lvlText.text = "Vrijeme: " + string.Format("{0:00}:{1:00}", min, sec);
+            // StopGame();
+            stopButton.InvokeOnRelease();
         }
 
         WorsenSymptoms();

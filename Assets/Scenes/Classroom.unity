@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: elektrodermalnu aktivnost.
+  m_Text: elektrodermalnu aktivnost
 --- !u!222 &6678989
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "igra\u010D je upravo zavr\u0161io zadani nivo."
+  m_Text: "igra\u010D je upravo zavr\u0161io zadani nivo"
 --- !u!222 &46197554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2615,7 +2615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: subjektivne i kvalitativne.
+  m_Text: subjektivne i kvalitativne
 --- !u!222 &136339200
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3287,7 +3287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "senzor za mjerenje vla\u017Enosti zraka."
+  m_Text: "senzor za mjerenje vla\u017Enosti zraka"
 --- !u!222 &181909558
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3738,7 +3738,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: alfa.
+  m_Text: alfa
 --- !u!222 &213155870
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5359,7 +5359,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: objektivne i kvalitativne.
+  m_Text: objektivne i kvalitativne
 --- !u!222 &272244372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6492,7 +6492,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mo\u017Edanu aktivnost."
+  m_Text: "mo\u017Edanu aktivnost"
 --- !u!222 &370297995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7134,7 +7134,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: theta.
+  m_Text: theta
 --- !u!222 &436948500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7213,7 +7213,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: telemetrijske podatke.
+  m_Text: telemetrijske podatke
 --- !u!222 &456616627
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8044,7 +8044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mi\u0161i\u0107na aktivnost."
+  m_Text: "mi\u0161i\u0107na aktivnost"
 --- !u!222 &525699179
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10166,7 +10166,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: elektrodermalna aktivnost.
+  m_Text: elektrodermalna aktivnost
 --- !u!222 &726544396
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12219,7 +12219,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: gama.
+  m_Text: gama
 --- !u!222 &866664484
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13046,7 +13046,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: senzor za mjerenje pulsa.
+  m_Text: senzor za mjerenje pulsa
 --- !u!222 &943618431
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13702,7 +13702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: objektivne i kvantitativne.
+  m_Text: objektivne i kvantitativne
 --- !u!222 &998623652
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13781,7 +13781,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "igra\u010Du je dosadno."
+  m_Text: "igra\u010Du je dosadno"
 --- !u!222 &1009374198
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13860,7 +13860,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: subjektivne i kvantitativne.
+  m_Text: subjektivne i kvantitativne
 --- !u!222 &1013188474
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14960,7 +14960,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: senzor za mjerenja temperature zraka.
+  m_Text: senzor za mjerenja temperature zraka
 --- !u!222 &1087521286
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15088,7 +15088,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "igra\u010D je jako vje\u0161t u igri."
+  m_Text: "igra\u010D je jako vje\u0161t u igri"
 --- !u!222 &1088753480
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15152,7 +15152,7 @@ PrefabInstance:
     - target: {fileID: 6346786754953803244, guid: 2abf2fef7b7633045a96b54505d07ba7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6346786754953803244, guid: 2abf2fef7b7633045a96b54505d07ba7,
         type: 3}
@@ -15863,7 +15863,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: gama.
+  m_Text: gama
 --- !u!222 &1183660885
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15942,7 +15942,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: theta.
+  m_Text: theta
 --- !u!222 &1200870387
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18408,7 +18408,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1416026114
 GameObject:
@@ -18480,7 +18480,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "bodove ste\u010Dene u igri."
+  m_Text: "bodove ste\u010Dene u igri"
 --- !u!222 &1416026117
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19443,7 +19443,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: senzor za detekciju govora.
+  m_Text: senzor za detekciju govora
 --- !u!222 &1514890997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19522,7 +19522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "do\u0161lo je do pove\u0107ane uzbu\u0111enosti ili stresa."
+  m_Text: "do\u0161lo je do pove\u0107ane uzbu\u0111enosti ili stresa"
 --- !u!222 &1515095726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20390,7 +20390,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: beta.
+  m_Text: beta
 --- !u!222 &1570617978
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21455,7 +21455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "sr\u010Dana aktivnost."
+  m_Text: "sr\u010Dana aktivnost"
 --- !u!222 &1668327544
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21701,7 +21701,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mo\u017Edana aktivnost."
+  m_Text: "mo\u017Edana aktivnost"
 --- !u!222 &1688541066
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23419,7 +23419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "kognitivno i emocionalno stanje igra\u010Da."
+  m_Text: "kognitivno i emocionalno stanje igra\u010Da"
 --- !u!222 &1814516204
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23652,7 +23652,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "subjektivne preference igra\u010Da."
+  m_Text: "subjektivne preference igra\u010Da"
 --- !u!222 &1819296603
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23731,7 +23731,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: alfa.
+  m_Text: alfa
 --- !u!222 &1822132300
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23859,7 +23859,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: beta.
+  m_Text: beta
 --- !u!222 &1838797358
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24981,7 +24981,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: puls.
+  m_Text: puls
 --- !u!222 &1893185846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25060,7 +25060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "mi\u0161i\u0107nu aktivnosti."
+  m_Text: "mi\u0161i\u0107nu aktivnost"
 --- !u!222 &1893536473
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25499,7 +25499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1905819739
 Transform:
   m_ObjectHideFlags: 0
@@ -31795,6 +31795,85 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3939270740651405757}
   m_CullTransparentMesh: 0
+--- !u!1001 &3135964882234670533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8165
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.551
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790097, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964883069790102, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: m_Name
+      value: StartButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964884049051134, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: enabledAtStart
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3135964884049051134, guid: 9d9829b2734d9744597307e3cf54c446,
+        type: 3}
+      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2654579063887892744}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d9829b2734d9744597307e3cf54c446, type: 3}
 --- !u!33 &3216377904023579913
 MeshFilter:
   m_ObjectHideFlags: 0

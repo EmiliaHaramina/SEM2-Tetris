@@ -29,6 +29,18 @@ public class TetrisPieceScript : MonoBehaviour
 
     }
 
+    public bool IsExploded()
+    {
+        return exploded;
+    }
+
+    public void SetExploded(bool exploded)
+    {
+        this.exploded = exploded;
+        CubePlaceSetter cubePlaceSetter = this.gameObject.GetComponent<CubePlaceSetter>();
+        cubePlaceSetter.ResetActiveColliders();
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
 

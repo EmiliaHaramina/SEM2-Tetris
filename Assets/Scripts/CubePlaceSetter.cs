@@ -31,6 +31,18 @@ public class CubePlaceSetter : MonoBehaviour
         }
     }
 
+    public void ResetActiveColliders()
+    {
+        while (activeColliders.Count > 0)
+        {
+            activeColliders.RemoveAt(0);
+        }
+
+        foreach (ColliderScript cube in lastShape) {
+            cube.GetOutlineRenderer().enabled = false;
+        }
+    }
+
     private List<ColliderScript> correctShape() {
         List<ColliderScript> shape = new List<ColliderScript>();
 
@@ -96,7 +108,9 @@ public class CubePlaceSetter : MonoBehaviour
     }
 
     public void PutChildrenInNetwork() {
-        if (lastShape.Count == 4) {
+        TetrisPieceScript tetrisPiece = this.gameObject.GetComponent<TetrisPieceScript>();
+
+        if (lastShape.Count == 4 && !tetrisPiece.IsExploded()) {
             CubeScript[] tetrisCubes = GetComponentsInChildren<CubeScript>();
 
             for (int i = 0; i < 4; i++) {
