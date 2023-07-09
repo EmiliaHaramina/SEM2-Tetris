@@ -7,6 +7,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4702550430524140664, guid: e9f304555eac0b141bdd13231a49d5b8,
+        type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
+      objectReference: {fileID: 0}
     - target: {fileID: 4702550430524140665, guid: e9f304555eac0b141bdd13231a49d5b8,
         type: 3}
       propertyPath: m_MaxRaycastDistance
@@ -61,6 +66,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_InvalidColorGradient.key2.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4702550432164445020, guid: e9f304555eac0b141bdd13231a49d5b8,
+        type: 3}
+      propertyPath: m_Parameters.widthMultiplier
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4702550432164445021, guid: e9f304555eac0b141bdd13231a49d5b8,
         type: 3}

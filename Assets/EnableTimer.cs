@@ -16,4 +16,10 @@ public class EnableTimer : MonoBehaviour
         Toggle toggle = gameObject.GetComponent<Toggle>();
         toggle.interactable = !toggle.interactable;
     }
+
+    private void OnEnable()
+    {
+        Toggle toggle = gameObject.GetComponent<Toggle>();
+        toggle.interactable = !QuizController.quizRunning;
+    }
 }

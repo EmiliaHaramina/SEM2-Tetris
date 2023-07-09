@@ -22,6 +22,8 @@ public class QuizController : MonoBehaviour
     private int[] _questionOrder;
     private int _currentPageNo = 0;
 
+    public static bool quizRunning = false;
+
     private void OnEnable()
     {
         _shuffleButton?.onClick.AddListener(SetNewQuestionOrder);
@@ -56,6 +58,7 @@ public class QuizController : MonoBehaviour
     {
         _questionOrder = QuestionController.GenerateRandomOrder(_quizPages.Count);
         OnQuizStarted?.Invoke();
+        quizRunning = true;
         ShowNextQuestion(_landingPage, _quizPages[_questionOrder[_currentPageNo]]);
         PrepareAnswers(_quizPages[_questionOrder[_currentPageNo]]);
     }
@@ -104,6 +107,8 @@ public class QuizController : MonoBehaviour
         
         description.text = string.Format("Rezultat: {0}/{1}", AnswerController.GetScore(), _quizPages.Count);
         description.fontSize = 300;
+
+        quizRunning = false;
     }
 
     private void PrepareAnswers(GameObject nextPage)
