@@ -60566,6 +60566,7 @@ MonoBehaviour:
   quizForbbidenScreen: {fileID: 3061012460533764010}
   gameForbbidenScreen: {fileID: 7995871225706980190}
   quizScreen: {fileID: 3061012458931037481}
+  quizController: {fileID: 0}
 --- !u!23 &2680168777744444719
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63829,6 +63830,7 @@ MonoBehaviour:
   quizForbbidenScreen: {fileID: 4121887489184877173}
   gameForbbidenScreen: {fileID: 9060695770891363969}
   quizScreen: {fileID: 2021874296}
+  quizController: {fileID: 918542476}
 --- !u!224 &4088405563031206698
 RectTransform:
   m_ObjectHideFlags: 0

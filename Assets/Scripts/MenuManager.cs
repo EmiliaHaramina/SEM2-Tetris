@@ -14,6 +14,8 @@ public class MenuManager : MonoBehaviour
     public GameObject gameForbbidenScreen;
     public GameObject quizScreen;
 
+    [SerializeField] private QuizController quizController;
+
     private void Start()
     {
         if(StateManager.remote)
@@ -35,6 +37,7 @@ public class MenuManager : MonoBehaviour
 
         if (StateManager.lectionRead && StateManager.rulesRead)
         {
+            quizController.RestartQuiz();
             loadingScreen.SetActive(true);
             SceneManager.LoadScene("Cetris");
         }

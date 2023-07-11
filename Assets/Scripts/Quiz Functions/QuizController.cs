@@ -52,15 +52,18 @@ public class QuizController : MonoBehaviour
             nextButtonObject.SetActive(false);
             nextButton.onClick.RemoveListener(NextQuestion);
         }
+        
+        quizRunning = false;
     }
 
     private void SetNewQuestionOrder()
     {
         _questionOrder = QuestionController.GenerateRandomOrder(_quizPages.Count);
-        OnQuizStarted?.Invoke();
         quizRunning = true;
         ShowNextQuestion(_landingPage, _quizPages[_questionOrder[_currentPageNo]]);
         PrepareAnswers(_quizPages[_questionOrder[_currentPageNo]]);
+        // last because it sometimes bugs after invoking everything
+        OnQuizStarted?.Invoke();
     }
 
     private void ShowNextQuestion(GameObject currentPage, GameObject nextPage)
@@ -100,8 +103,6 @@ public class QuizController : MonoBehaviour
 
     private void QuizEnding()
     {
-        OnQuizEnded?.Invoke();
-
         GameObject descriptionObject = _finalPage.transform.Find("Description").gameObject;
         var description = descriptionObject.GetComponent<TextMeshPro>();
         
@@ -109,6 +110,8 @@ public class QuizController : MonoBehaviour
         description.fontSize = 300;
 
         quizRunning = false;
+        // last because it sometimes bugs after invoking everything
+        OnQuizEnded?.Invoke();
     }
 
     private void PrepareAnswers(GameObject nextPage)
