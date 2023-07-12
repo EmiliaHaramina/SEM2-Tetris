@@ -1,4 +1,2 @@
-# VirOkrProjekt-3D-Tetris
-Projekt u sklopu diplomskog predmeta Virtualna Okruženja
-
-3D Tetris game
+# Praćenje psihofizioloških signala
+Seminar u sklopu diplomskog predmeta Seminar 2
